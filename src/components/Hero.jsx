@@ -18,7 +18,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Seif</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I have hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging<br className='sm:block hidden' />
+            I have hands-on practical experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging<br className='sm:block hidden' />
             configuration management, CI/CD, and DevOps processes 
           </p>
         </div>

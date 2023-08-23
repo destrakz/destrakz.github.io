@@ -23,6 +23,7 @@ import {
   git,
   docker,
   supportyourapp,
+  steam,
   fatar,
   cloaksandcapes,
   cloudchallenge,
@@ -126,7 +127,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Technical Cloud Support Consultant",
+    title: "Cloud Support Consultant",
     company_name: "SupportYourApp",
     icon: supportyourapp,
     iconBg: "#383E56",
@@ -134,9 +135,21 @@ const experiences = [
     points: [
       "Implemented multiple CRM initiatives aimed at streamlining cloud customer inquiry resolution processes, enhancing overall customer experience, and bolstering customer satisfaction levels",
       "Had the opportunity of exploring multiple Cloud-based providers, aswell as methods for identifying bottlenecks and bug reporting",
-      "Collaborated with a vast number of team members through knowledge sharing sessions and documentation, enabling continuous learning and improvement within the support team.",
+      "Collaborated with a vast number of team members through knowledge sharing sessions and documentation, enabling continuous learning and improvement within the support team",
     ],
   }, 
+  {
+    title: "Intern Cloud Architect",
+    company_name: "FATAR SRL",
+    icon: fatar,
+    iconBg: "#383E56",
+    date: "May 2023 - June 2023",
+    points: [
+      "Nextcloud Configuration: Assisted in the successful configuration and deployment of Nextcloud on the company's server, contributing to the establishment of a robust and secure self-hosted cloud solution.",
+      "Collaborative Quota Setup: Collaborated with team members to define and set user quotas and maximum file sizes within Nextcloud",
+      "Enhanced File Sharing and User Organization: Played an integral role in enhancing file sharing capabilities within Nextcloud, including the organization of users into groups",
+    ],
+  },
   {
     title: "Intern Full Stack Developer",
     company_name: "FATAR SRL",
@@ -145,21 +158,20 @@ const experiences = [
     date: "Jul 2022 - Aug 2022",
     points: [
       "Conception and development of a web application for computer aided maintenance management (CMMS) using React for the front and Django/PostgreSQL for back-end",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Collaborating with other intern developers to ensure the functionality of the app.",
+      "Implementing responsive design and ensuring cross-browser compatibility",
+      "Collaborating with other intern developers to ensure the functionality of the app",
     ],
   },
   {
     title: "Freelance Game Developer",
-    company_name: "Cloaks & Capes",
-    icon: cloaksandcapes,
+    company_name: "Steam",
+    icon: steam,
     iconBg: "#383E56",
     date: "March 2020 - Present",
     points: [
-      "Commercial Game Link: https://store.steampowered.com/app/1637950/Cloaks_and_Capes/",
-      "More than 2k copies sold and a 95% positive rating (22-1)",
+      "Published a commercial game on Steam with 2k+ downloads and a 95% positive rating (22:1 ratio)",
+      "Acquired skills in music composition, pixel art, video editing, game design and trailer production, enhancing game quality and marketing materials",
       "Still updating, marketing and maintaining it to this day according to customer reviews to satisfy their needs",
-      "Used Godot Game Engine, GDscript  Premiere Pro and more",
     ],
   },
 ];

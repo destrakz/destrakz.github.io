@@ -32,6 +32,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import supportyourapp from "./company/supportyourapp.png";
+import steam from "./company/steam.png";
 import fatar from "./company/fatar.png";
 
 import cloaksandcapes from "./cloaksandcapes.png";
@@ -72,6 +73,7 @@ export {
   typescript,
   threejs,
   supportyourapp,
+  steam,
   fatar,
   cloaksandcapes,
   cloudchallenge,
