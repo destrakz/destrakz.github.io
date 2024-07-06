@@ -22,6 +22,7 @@ import {
   mongodb,
   git,
   docker,
+  dracoss,
   supportyourapp,
   steam,
   fatar,
@@ -126,6 +127,7 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
     title: "Cloud Support Consultant",
     company_name: "SupportYourApp",
@@ -133,17 +135,28 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2023 - Present",
     points: [
-      "Implemented multiple CRM initiatives aimed at streamlining cloud customer inquiry resolution processes, enhancing overall customer experience, and bolstering customer satisfaction levels",
-      "Had the opportunity of exploring multiple Cloud-based providers, aswell as methods for identifying bottlenecks and bug reporting",
-      "Collaborated with a vast number of team members through knowledge sharing sessions and documentation, enabling continuous learning and improvement within the support team",
+      //"Confidential",
     ],
-  }, 
+  },
+  {
+    title: "Cloud Architect",
+    company_name: "Dracoss",
+    icon: dracoss,
+    iconBg: "#383E56",
+    date: "Dec 2023 - Jul 2024",
+    points: [
+      "Infrastructure as Code (IaC): Implemented Terraform for automated provisioning and management of aws resources.",
+      "CI/CD Pipeline: Designed robust CI/CD pipelines with comprehensive testing, ensuring faster, error-free deployments and continuous integration.",
+      "Containerization and Deployment: Optimized the dockerization and set up the foundation for a microservice architecture of Dracoss website with ECS orchestration.",
+      "Comprehensive Monitoring: Implemented  monitoring solutions using Grafana for dashboards, set up alarms, logging, and notifications. Also used Locust for load testing simulations, ensuring system reliability and performance.",
+    ],
+  },  
   {
     title: "Intern Cloud Architect",
     company_name: "FATAR SRL",
     icon: fatar,
     iconBg: "#383E56",
-    date: "May 2023 - June 2023",
+    date: "May 2023 - Jun 2023",
     points: [
       "Nextcloud Configuration: Assisted in the successful configuration and deployment of Nextcloud on the company's server, contributing to the establishment of a robust and secure self-hosted cloud solution.",
       "Collaborative Quota Setup: Collaborated with team members to define and set user quotas and maximum file sizes within Nextcloud",
@@ -169,7 +182,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2020 - Present",
     points: [
-      "Published a commercial game on Steam with 2k+ downloads and a 95% positive rating (22:1 ratio)",
+      "Published a commercial game (Cloaks & Capes) on Steam with 2k+ downloads and a 95% positive rating (22:1 ratio)",
       "Acquired skills in music composition, pixel art, video editing, game design and trailer production, enhancing game quality and marketing materials",
       "Still updating, marketing and maintaining it to this day according to customer reviews to satisfy their needs",
     ],
@@ -207,7 +220,7 @@ const projects = [
   {
     name: "Cloaks & Capes",
     description:
-      "Commercial solo developed game published on Steam with more than 2k sold copies and a 95% positive rating (22-1), still being updated and maintained to this day according to customer reviews satisfying their needs.",
+      "Commercial solo developed game published on Steam with more than 2k sold copies and a 95% positive rating (22-1), still being updated and maintained to this day according to customer reviews to satisfy their needs.",
     
       tags: [
       {
@@ -255,7 +268,8 @@ const projects = [
   {
     name: "automated",
     description:
-      "Automated the creation of 2 Virtual Machines using Ansible and Vagrant, one to automate building an image, other for the deployment to dockerize the app, all with a Gitlab CI/CD pipeline. ",
+      "Automated the creation of 2 Virtual Machines using Ansible and Vagrant, one to automate building an image, other for the deployment, all with a Gitlab CI/CD pipeline. ",
+      
     
       tags: [
       {
@@ -281,7 +295,7 @@ const projects = [
   {
     name: "Image-Uploader",
     description:
-      "Deployed a Django application on the cloud that allows it's user to upload an image following a highly available, secure and scalable architecture (as shown in projects image)",
+      "Deployed a Django application on the cloud that allows its user to upload an image following a highly available, secure and scalable architecture",
     
       tags: [
       {

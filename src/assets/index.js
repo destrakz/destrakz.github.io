@@ -31,6 +31,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import dracoss from "./company/dracoss.png";
 import supportyourapp from "./company/supportyourapp.png";
 import steam from "./company/steam.png";
 import fatar from "./company/fatar.png";
@@ -72,6 +73,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  dracoss,
   supportyourapp,
   steam,
   fatar,
